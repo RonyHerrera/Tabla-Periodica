@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="/assets/css/vendors/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+<body>
+
+<h1 style="text-align: center;">Tabla periodica</h1>
+
+<div class="espa">
+        <div class="espada">
+{{#each elements as |element|}}
+
+{{#if (diferentElement element 0)}}
+<div class="columnas-vacias">
+</div>
+{{else}}
+<div class="columnas" style="background-color: {{element.color}};">
+        {{element.name}}
+</div>
+{{/if}}
+{{/each}}
+
+<div class="mt-5">
+{{#each g2 as |g2|}}
+
+{{#if (diferentElement g2 0)}}
+
+<div class="columnas-vacias ">
+</div>
+{{else}}
+<div class="columnas" style="background-color: {{g2.color}};">
+        {{g2.name}}
+</div>
+{{/if}}
+{{/each}}
+</div>
+
+<div class="VAINA">
+ {{#each Family as  |Familia|}} 
+ <div class="" style="background-color: {{Familia.col}};">
+{{Familia.name}}
+ </div>
+   {{/each}}
+</div>
+
+
+</div>
+</div>
+
+    
+    <script src="/assets/js/vendors/Bootstrap/bootstrap.min.js"></script>
+</body>
+</html>

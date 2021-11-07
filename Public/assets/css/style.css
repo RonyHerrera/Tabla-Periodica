@@ -1,0 +1,65 @@
+.columnas{
+    display: inline-block;
+    width: 73px;
+    height: 80px;
+    border: 1px;
+    border-radius: 2px;
+    border-style: solid;
+    text-align: center;
+    line-height: 60px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.columnas-vacias{
+    display: inline-block;
+    width: 73px;
+    height: 80px;
+    border: 1px;
+    border-color: transparent;
+    background-color: transparent;
+    margin-top: -10px;
+    margin-bottom: -30px;
+}
+
+.Vacio{
+    display: inline-block;
+    width: 70px;
+    height: 80px;
+    border: 1px;
+    border-color: #ccc;
+    background-color: #ccc;
+    margin-top: -10px;
+    margin-bottom: -30px;
+}
+
+.color{
+    display: inline-block;
+    width: 73px;
+    height: 80px;
+    border: 1px;
+    border-radius: 2px;
+    border-style: solid;
+    text-align: center;
+    line-height: 60px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color: yellowgreen;
+}
+
+.espa{
+    margin: 57px;
+    border-style: solid;
+    border-radius: 5px;
+}
+.espada{
+    margin: 5px;
+}
+
+.VAINA{
+    margin-top: 50px;
+  margin-left: 200px;
+ width: 800px;  
+ border: 1px;
+ border-radius: 2px;
+ border-style: solid;
+}
